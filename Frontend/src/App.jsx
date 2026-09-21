@@ -35,7 +35,7 @@ function App() {
               Upload
               <input type="file" className='hidden ' onChange={(data)=>setFile(data.target.files[0])} />
             </label>
-            <a href={result} target="_blank" className="flex justify-center mt-7 mx-auto break-all text-center">{result} </a>
+            <a href={result} target="_blank" className="flex justify-center mt-7 mx-auto break-all text-center select-text">{result} </a>
           </div>
         </div>
       </div>
